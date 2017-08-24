@@ -1,0 +1,2 @@
+deb packager is python utility for easier debian package creation.
+As for now supports binary package creation.
