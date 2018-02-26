@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Main configuration module
 .. moduleauthor: rshuvalov@abtronics.ru (Roman Shuvalov)

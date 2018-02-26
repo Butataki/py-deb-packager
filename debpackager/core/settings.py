@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 settings options for build
 .. moduleauthor: rshuvalov@abtronics.ru (Roman Shuvalov)

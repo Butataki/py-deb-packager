@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 import os
 
@@ -5,8 +6,8 @@ HERE = os.path.abspath(os.path.dirname(__file__))
 
 
 def get_description():
-    README = os.path.join(HERE, 'README')
-    f = open(README, 'r')
+    readme = os.path.join(HERE, 'README')
+    f = open(readme)
     try:
         return f.read()
     finally:

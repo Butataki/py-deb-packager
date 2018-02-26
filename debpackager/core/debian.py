@@ -1,10 +1,11 @@
+# -*- coding: utf-8 -*-
 """
 debian/* specific files creation module
 .. moduleauthor: rshuvalov@abtronics.ru (Roman Shuvalov)
 """
 import os
 import datetime
-from settings import build_path, debian_path, local_path
+from debpackager.core.settings import build_path, debian_path, local_path
 import subprocess
 import re
 import gzip
