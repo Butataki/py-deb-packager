@@ -159,7 +159,7 @@ exit 0
     # Add python requirements installation
     if len(kwargs['python_depends']) > 0:
         for package in kwargs['python_depends']:
-            body_preinst += "easy_install {}\n".format(package)
+            body_preinst += "pip{} install {}\n".format(kwargs['python_major_version'], package)
     # add extensions body
     if len(kwargs['preinstall_ext_sh']) > 0:
         for sh in kwargs['preinstall_ext_sh']:

@@ -51,6 +51,7 @@ def setup(files, name, **kwargs):
     # dependencies
     props['python_depends'] = kwargs.get('python_depends', [])  # Python specific modules required for package
     props['depends'] = ', '.join(kwargs.get('depends', []))
+    props['python_major_version'] = kwargs.get('python_major_version', 2)
     props['predepends'] = ', '.join(kwargs.get('predepends', []))
     props['conflict'] = ', '.join(kwargs.get('conflict', []))
     props['replaces'] = ', '.join(kwargs.get('replaces', []))

@@ -16,7 +16,7 @@ def get_description():
 def main():
     setup_args = dict(
         name='debian_packager',
-        version='1.0.4',
+        version='1.0.6',
         author='Roman Shuvalov',
         author_email='rshuvalov@abtronics.ru',
         description='deb package creation utility',
